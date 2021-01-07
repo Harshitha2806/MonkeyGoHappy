@@ -82,7 +82,6 @@ function draw()
   if(obstacleGrp.isTouching(player))
      {
      player.scale = 0.2;
-      score = score -2;
      }
   
   player.collide(ground);
